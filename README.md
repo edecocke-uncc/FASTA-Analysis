@@ -33,7 +33,7 @@ conda env create -f environment.yml
 Activate the Environment
 ```bash
 conda activate fasta-analysis-env
-
+```
 4. Run the script from the command line:
 ```bash
 python analyze_fasta.py --input sequences.fasta --kmer 1
