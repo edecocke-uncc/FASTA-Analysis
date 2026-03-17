@@ -19,7 +19,9 @@ This project uses a python script to perform pairwise k-mer-based sequence ident
 
 ### Setup
 1. Clone the repository:
+```bash
 git clone [https://github.com/TahmidA139/Project-Programming-2-Group-6.git](https://github.com/edecocke-uncc/Programming-Exercise-FASTA-Sequence.git)
+```
 
 2. Make sure Python 3 is installed (≥3 recommended).
 
