@@ -34,7 +34,7 @@ conda env create -f environment.yml
 ```
 Activate the Environment
 ```bash
-conda activate fasta-analysis-env
+conda activate fasta-sequence-identity-analysis
 ```
 4. Run the script from the command line:
 ```bash
