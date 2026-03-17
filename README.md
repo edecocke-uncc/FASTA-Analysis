@@ -50,6 +50,8 @@ Arguments:
 - --output (-o): Output file path (default: stdout)
 
 ### Example Output
+The output is a tab-separated matrix where the rows and columns represent sequence identifiers and each cell contains the k-mer identity between two sequences. All values range from 0 to 1 and the diagonal values are always 1.0000 (self-comparison).Values are always formatted to four decimal places.
+
 ```
 ID              Seq1   Seq2   Seq3
 Seq1            1.0000 0.9231 0.9102
