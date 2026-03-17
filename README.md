@@ -62,7 +62,7 @@ Seq3            0.XXXX 0.XXXX 1.0000
 
 #### Examples:
 For exapmle if you use sequences.fasta:
-**k = 1 **
+**k = 1**
 input:
 ```bash
 python analyze_fasta.py --input sequences.fasta --kmer 1
