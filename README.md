@@ -60,7 +60,7 @@ Seq3            0.XXXX 0.XXXX 1.0000
 ```
 **The exact values will depend on what your input arguments are so they are intentionally omitted here.**
 
-Examples:
+#### Examples:
 For exapmle if you use sequences.fasta:
 **k = 1 **
 input:
