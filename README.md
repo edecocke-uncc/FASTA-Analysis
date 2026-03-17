@@ -55,6 +55,6 @@ Seq3            0.9102 0.8998 1.0000
 This project is licensed under the GNU GPL v2.1. Chosen for open collaboration, ease of edits, and public use.
 
 ## Author
-Erin Nicole Decocker
-edecocke@charlotte.edu
-ID: 801442694
+- Erin Nicole Decocker
+- edecocke@charlotte.edu
+- ID: 801442694
