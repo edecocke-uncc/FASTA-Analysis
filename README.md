@@ -24,7 +24,7 @@ git clone https://github.com/edecocke-uncc/FASTA-Analysis.git
 ```
 2. Go into your project folder:
 ```bash
-cd Programming-Exercise-FASTA-Sequence
+cd FASTA-Analysis
 ```
 3. Make sure Python 3 is installed (≥3 recommended).
 
