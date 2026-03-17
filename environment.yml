@@ -1,4 +1,4 @@
-name: fasta-sequence-identity-analysis
+name: FASTA-Analysis
 
 channels:
   - conda-forge
