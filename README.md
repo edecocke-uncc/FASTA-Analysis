@@ -1,4 +1,4 @@
-# -FASTA-analysis
+# FASTA-Analysis
 
 ## Overview
 This project uses a python script to perform pairwise k-mer-based sequence identity analysis on FASTA files. 
@@ -20,7 +20,7 @@ This project uses a python script to perform pairwise k-mer-based sequence ident
 ### Setup
 1. Clone the repository:
 ```bash
-git clone https://github.com/edecocke-uncc/Programming-Exercise-FASTA-Sequence.git
+git clone https://github.com/edecocke-uncc/FASTA-Analysis.git
 ```
 2. Go into your project folder:
 ```bash
@@ -37,7 +37,7 @@ conda env create -f environment.yml
 ```
 6. Activate the Environment
 ```bash
-conda activate fasta-sequence-identity-analysis
+conda activate FASTA-Analysis
 ```
 7. Run the script from the command line:
 ```bash
