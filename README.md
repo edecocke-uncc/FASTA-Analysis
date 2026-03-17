@@ -42,9 +42,9 @@ python analyze_fasta.py --input sequences.fasta --kmer 1
 ```
 ### Arguments
 Arguments:
-- input (-i): Path to the input FASTA file (required)
-- kmer (-k): k-mer size for comparison (default: 1)
-- output (-o): Output file path (default: stdout)
+- --input (-i): Path to the input FASTA file (required)
+- --kmer (-k): k-mer size for comparison (default: 1)
+- --output (-o): Output file path (default: stdout)
 
 ### Example Output
 ```
