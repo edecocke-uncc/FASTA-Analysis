@@ -1,4 +1,4 @@
-# Programming-Exercise-FASTA-Sequence
+# -FASTA-analysis
 
 ## Overview
 This project uses a python script to perform pairwise k-mer-based sequence identity analysis on FASTA files. 
