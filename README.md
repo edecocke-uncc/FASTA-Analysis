@@ -39,10 +39,10 @@ conda activate fasta-analysis-env
 python analyze_fasta.py --input sequences.fasta --kmer 1
 ```
 ### Arguments
-| Argument | Short | Description |
-| --input  | -i   | Path to FASTA file |
-| --kmer   | -k   | k-mer size (default: 1) |
-| --output | -o   | Output file path (default: stdout) |
+Arguments:
+- --input (-i): Path to the input FASTA file (required)
+- --kmer (-k): k-mer size for comparison (default: 1)
+- --output (-o): Output file path (default: stdout)
 
 ### Example Output
 ```
