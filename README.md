@@ -54,9 +54,54 @@ The output is a tab-separated matrix where the rows and columns represent sequen
 
 ```
 ID              Seq1   Seq2   Seq3
-Seq1            1.0000 0.9231 0.9102
-Seq2            0.9231 1.0000 0.8998
-Seq3            0.9102 0.8998 1.0000
+Seq1            1.0000 0.XXXX 0.XXXX
+Seq2            0.XXXX 1.0000 0.XXXX
+Seq3            0.XXXX 0.XXXX 1.0000
+```
+**The exact values will depend on what your input arguments are so they are intentionally omitted here.**
+
+Examples:
+For exapmle if you use sequences.fasta:
+**k = 1 **
+input:
+```bash
+python analyze_fasta.py --input sequences.fasta --kmer 1
+```
+The output would be: 
+```bash
+ID	MK278857.1	MK278840.1	MK278831.1	MK278830.1
+MK278857.1	1.0000	0.9982	1.0000	1.0000
+MK278840.1	0.9982	1.0000	0.9963	0.9963
+MK278831.1	1.0000	0.9963	1.0000	1.0000
+MK278830.1	1.0000	0.9963	1.0000	1.0000
+```
+
+**k = 2**
+input:
+```bash
+python analyze_fasta.py --input sequences.fasta --kmer 2
+```
+The output would be: 
+```bash
+ID	MK278857.1	MK278840.1	MK278831.1	MK278830.1
+MK278857.1	1.0000	0.9945	1.0000	1.0000
+MK278840.1	0.9945	1.0000	0.9927	0.9927
+MK278831.1	1.0000	0.9927	1.0000	1.0000
+MK278830.1	1.0000	0.9927	1.0000	1.0000
+```
+
+**k = 3**
+input:
+```bash
+python analyze_fasta.py --input sequences.fasta --kmer 3
+```
+The output would be: 
+```bash
+ID	MK278857.1	MK278840.1	MK278831.1	MK278830.1
+MK278857.1	1.0000	0.9872	1.0000	1.0000
+MK278840.1	0.9872	1.0000	0.9853	0.9853
+MK278831.1	1.0000	0.9853	1.0000	1.0000
+MK278830.1	1.0000	0.9853	1.0000	1.0000
 ```
 ## License
 This project is licensed under the GNU GPL v2.1. Chosen for open collaboration, ease of edits, and public use.
